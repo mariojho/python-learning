@@ -225,4 +225,4 @@ while True:
                     f.close()
                     if (encodeflg == 1):
                         num_encoded = encode_run(msglist, update_dt)
-        sleep(10)
+    sleep(10)
