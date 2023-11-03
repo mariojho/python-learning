@@ -1,3 +1,4 @@
+# Descarga recursiva de datos a través de FTP
 #!/usr/bin/env python 
 #--*-- coding: utf-8 --*--
 
