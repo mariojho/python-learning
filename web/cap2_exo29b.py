@@ -1,3 +1,4 @@
+# Actualizado la versión del libro de Python 2.7 a Python 3.6
 #!/usr/bin/env python 
 # --*-- coding: utf-8 --*--
 
