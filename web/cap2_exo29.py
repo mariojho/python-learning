@@ -1,3 +1,6 @@
+# Analizar páginas HTML y XHTML. Recuperar datos de una página HTML.
+# Modificado original del libro
+# Actualizado la versión del libro de Python 2.7 a Python 3.6
 #!/usr/bin/env python
 
 from html.parser import HTMLParser
