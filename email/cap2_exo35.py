@@ -44,7 +44,7 @@ def send(mfrom, mto):
 # Creamos un objeto mensaje multipart
 emailmultipart = MIMEMultipart()
 # Creamos un mensaje de tipo MIMEImage empleando nuestra función
-emailimage = image_a_mail("/home/mariojho/Desarrollo/hacking/python-learning/email/imagen1.png")
+emailimage = image_a_mail("/home/rutausuario/otra-ruta/imagen1.png")
 # Vinculamos la imagen a nuestro multipart
 emailmultipart.attach(emailimage)
 
