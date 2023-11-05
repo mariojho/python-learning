@@ -1,0 +1,59 @@
+From - Wed Dec 14 08:49:18 2011
+X-Account-Key: account2
+X-UIDL: 1143464059.72043
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <sylvia.casado@univ-valenciennes.fr>
+Received: from eiger.univ-valenciennes.fr ([unix socket])
+	 by eiger.univ-valenciennes.fr (Cyrus v2.3.7-Invoca-RPM-2.3.7-7.el5_4.3) with LMTPA;
+	 Tue, 13 Dec 2011 22:02:09 +0100
+X-Sieve: CMU Sieve 2.3
+Received: from titan.univ-valenciennes.fr (titan.univ-valenciennes.fr [193.50.192.38])
+	by eiger.univ-valenciennes.fr (Postfix) with ESMTP id 75BDE835F7F
+	for <Franck.Ebel@eiger>; Tue, 13 Dec 2011 22:02:09 +0100 (CET)
+Received: by titan.univ-valenciennes.fr (Postfix)
+	id D996A7845B3; Tue, 13 Dec 2011 22:01:54 +0100 (CET)
+Delivered-To: franck.ebel@univ-valenciennes.fr
+Received: from localhost (ent8.univ-valenciennes.fr [193.50.192.148])
+	by titan.univ-valenciennes.fr (Postfix) with ESMTP id 41792784567;
+	Tue, 13 Dec 2011 22:01:50 +0100 (CET)
+Received: from 81-67-158-236.rev.numericable.fr
+ (81-67-158-236.rev.numericable.fr [81.67.158.236]) by
+ webpers.univ-valenciennes.fr (Horde Framework) with HTTP; Tue, 13 Dec 2011
+ 22:02:05 +0100
+Message-ID: <20111213220205.71992j3gzaisc5z4@webpers.univ-valenciennes.fr>
+Date: Tue, 13 Dec 2011 22:02:05 +0100
+From: Sylvia Casado <Sylvia.Casado@univ-valenciennes.fr>
+To: Ebel Franck <Franck.Ebel@univ-valenciennes.fr>
+Cc: Poirriez Vincent <Vincent.Poirriez@univ-valenciennes.fr>
+Subject: Simon Onduo
+MIME-Version: 1.0
+Content-Type: text/plain;
+ charset=ISO-8859-1;
+ DelSp="Yes";
+ format="flowed"
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+User-Agent: Dynamic Internet Messaging Program (DIMP) H3 (1.1.4)
+X-UVHC-titan-MailScanner-ID: 41792784567.A402C
+X-UVHC-titan-MailScanner: Found to be clean
+X-UVHC-titan-MailScanner-From: sylvia.casado@univ-valenciennes.fr
+X-Spam-Status: No
+
+Hola Franck,
+
+
+Me he enterado a través de Simon Onduo y luego por Catherine Holland que el contrato de Simon ha sido anulado.
+Supongo que la reunión fijada para el martes 20 de diciembre a las 10:30  
+con M. Richard se cancelará.
+Por favor tenme al corriente.
+Un saludo,
+
+
+-- 
+Sylvia CASADO
+IUT Maubeuge
+
+
+
