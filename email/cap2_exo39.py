@@ -19,6 +19,6 @@ for i in range(nb):
     message = servidor_pop.ret(i + 1)
     mail_inline = ""
     for linea in message[1]:
-        mail_inline = mail_inline + info + "\n"
+        mail_inline = mail_inline + "\n"
         mi_obj_message = message_from_string(mail_inline)
         print(mi_obj_message.get_payload('From'))
